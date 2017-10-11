@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>阶乘不为0位数问题.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>阶乘尾数问题.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>阶乘问题.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3F0A52AB1BDB4E0E0026D2E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F1BF4D51BF06B830082BF42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F1BF4E71BF06C0C0082BF42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F1BF4F41BF06C470082BF42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

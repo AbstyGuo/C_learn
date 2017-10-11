@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046513581BCF832C00E73676 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 046513571BCF832C00E73676 /* main.c */; };
+		0465135A1BCF832C00E73676 /* ____________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 046513591BCF832C00E73676 /* ____________.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		046513521BCF832C00E73676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0465135A1BCF832C00E73676 /* ____________.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		046513541BCF832C00E73676 /* 9--一维数组的内存关系 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9--一维数组的内存关系"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046513571BCF832C00E73676 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		046513591BCF832C00E73676 /* ____________.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "____________.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046513511BCF832C00E73676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0465134B1BCF832C00E73676 = {
+			isa = PBXGroup;
+			children = (
+				046513561BCF832C00E73676 /* 9--一维数组的内存关系 */,
+				046513551BCF832C00E73676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046513551BCF832C00E73676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046513541BCF832C00E73676 /* 9--一维数组的内存关系 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046513561BCF832C00E73676 /* 9--一维数组的内存关系 */ = {
+			isa = PBXGroup;
+			children = (
+				046513571BCF832C00E73676 /* main.c */,
+				046513591BCF832C00E73676 /* ____________.1 */,
+			);
+			path = "9--一维数组的内存关系";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046513531BCF832C00E73676 /* 9--一维数组的内存关系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0465135D1BCF832C00E73676 /* Build configuration list for PBXNativeTarget "9--一维数组的内存关系" */;
+			buildPhases = (
+				046513501BCF832C00E73676 /* Sources */,
+				046513511BCF832C00E73676 /* Frameworks */,
+				046513521BCF832C00E73676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9--一维数组的内存关系";
+			productName = "9--一维数组的内存关系";
+			productReference = 046513541BCF832C00E73676 /* 9--一维数组的内存关系 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0465134C1BCF832C00E73676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = qianfeng;
+			};
+			buildConfigurationList = 0465134F1BCF832C00E73676 /* Build configuration list for PBXProject "9--一维数组的内存关系" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0465134B1BCF832C00E73676;
+			productRefGroup = 046513551BCF832C00E73676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046513531BCF832C00E73676 /* 9--一维数组的内存关系 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046513501BCF832C00E73676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046513581BCF832C00E73676 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0465135B1BCF832C00E73676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0465135C1BCF832C00E73676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0465135E1BCF832C00E73676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0465135F1BCF832C00E73676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0465134F1BCF832C00E73676 /* Build configuration list for PBXProject "9--一维数组的内存关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0465135B1BCF832C00E73676 /* Debug */,
+				0465135C1BCF832C00E73676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0465135D1BCF832C00E73676 /* Build configuration list for PBXNativeTarget "9--一维数组的内存关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0465135E1BCF832C00E73676 /* Debug */,
+				0465135F1BCF832C00E73676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0465134C1BCF832C00E73676 /* Project object */;
+}

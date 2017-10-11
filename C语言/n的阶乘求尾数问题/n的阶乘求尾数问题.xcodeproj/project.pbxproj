@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F00A7491BF431D500E4F005 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F00A7481BF431D500E4F005 /* main.c */; };
+		3F00A74B1BF431D500E4F005 /* ___.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F00A74A1BF431D500E4F005 /* ___.1 */; };
+		3F4A487C1BF2E5FD00A3CCD5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A487B1BF2E5FD00A3CCD5 /* main.c */; };
+		3F4A487E1BF2E5FD00A3CCD5 /* n________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F4A487D1BF2E5FD00A3CCD5 /* n________.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F00A7441BF431D500E4F005 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3F00A74B1BF431D500E4F005 /* ___.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3F4A48761BF2E5FD00A3CCD5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3F4A487E1BF2E5FD00A3CCD5 /* n________.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F00A7461BF431D500E4F005 /* 求位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "求位数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F00A7481BF431D500E4F005 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3F00A74A1BF431D500E4F005 /* ___.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "___.1"; sourceTree = "<group>"; };
+		3F4A48781BF2E5FD00A3CCD5 /* n的阶乘求尾数问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "n的阶乘求尾数问题"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4A487B1BF2E5FD00A3CCD5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3F4A487D1BF2E5FD00A3CCD5 /* n________.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "n________.1"; sourceTree = "<group>"; };
+		3F4A48841BF2E61E00A3CCD5 /* 思路 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "思路"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F00A7431BF431D500E4F005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4A48751BF2E5FD00A3CCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F00A7471BF431D500E4F005 /* 求位数 */ = {
+			isa = PBXGroup;
+			children = (
+				3F00A7481BF431D500E4F005 /* main.c */,
+				3F00A74A1BF431D500E4F005 /* ___.1 */,
+			);
+			path = "求位数";
+			sourceTree = "<group>";
+		};
+		3F4A486F1BF2E5FD00A3CCD5 = {
+			isa = PBXGroup;
+			children = (
+				3F4A487A1BF2E5FD00A3CCD5 /* n的阶乘求尾数问题 */,
+				3F00A7471BF431D500E4F005 /* 求位数 */,
+				3F4A48791BF2E5FD00A3CCD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4A48791BF2E5FD00A3CCD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A48781BF2E5FD00A3CCD5 /* n的阶乘求尾数问题 */,
+				3F00A7461BF431D500E4F005 /* 求位数 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4A487A1BF2E5FD00A3CCD5 /* n的阶乘求尾数问题 */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A487B1BF2E5FD00A3CCD5 /* main.c */,
+				3F4A48841BF2E61E00A3CCD5 /* 思路 */,
+				3F4A487D1BF2E5FD00A3CCD5 /* n________.1 */,
+			);
+			path = "n的阶乘求尾数问题";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F00A7451BF431D500E4F005 /* 求位数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F00A74E1BF431D500E4F005 /* Build configuration list for PBXNativeTarget "求位数" */;
+			buildPhases = (
+				3F00A7421BF431D500E4F005 /* Sources */,
+				3F00A7431BF431D500E4F005 /* Frameworks */,
+				3F00A7441BF431D500E4F005 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "求位数";
+			productName = "求位数";
+			productReference = 3F00A7461BF431D500E4F005 /* 求位数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3F4A48771BF2E5FD00A3CCD5 /* n的阶乘求尾数问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4A48811BF2E5FD00A3CCD5 /* Build configuration list for PBXNativeTarget "n的阶乘求尾数问题" */;
+			buildPhases = (
+				3F4A48741BF2E5FD00A3CCD5 /* Sources */,
+				3F4A48751BF2E5FD00A3CCD5 /* Frameworks */,
+				3F4A48761BF2E5FD00A3CCD5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "n的阶乘求尾数问题";
+			productName = "n的阶乘求尾数问题";
+			productReference = 3F4A48781BF2E5FD00A3CCD5 /* n的阶乘求尾数问题 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4A48701BF2E5FD00A3CCD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = student;
+			};
+			buildConfigurationList = 3F4A48731BF2E5FD00A3CCD5 /* Build configuration list for PBXProject "n的阶乘求尾数问题" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F4A486F1BF2E5FD00A3CCD5;
+			productRefGroup = 3F4A48791BF2E5FD00A3CCD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4A48771BF2E5FD00A3CCD5 /* n的阶乘求尾数问题 */,
+				3F00A7451BF431D500E4F005 /* 求位数 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F00A7421BF431D500E4F005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F00A7491BF431D500E4F005 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4A48741BF2E5FD00A3CCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4A487C1BF2E5FD00A3CCD5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F00A74C1BF431D500E4F005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F00A74D1BF431D500E4F005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F4A487F1BF2E5FD00A3CCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F4A48801BF2E5FD00A3CCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F4A48821BF2E5FD00A3CCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F4A48831BF2E5FD00A3CCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F00A74E1BF431D500E4F005 /* Build configuration list for PBXNativeTarget "求位数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F00A74C1BF431D500E4F005 /* Debug */,
+				3F00A74D1BF431D500E4F005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F4A48731BF2E5FD00A3CCD5 /* Build configuration list for PBXProject "n的阶乘求尾数问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A487F1BF2E5FD00A3CCD5 /* Debug */,
+				3F4A48801BF2E5FD00A3CCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4A48811BF2E5FD00A3CCD5 /* Build configuration list for PBXNativeTarget "n的阶乘求尾数问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A48821BF2E5FD00A3CCD5 /* Debug */,
+				3F4A48831BF2E5FD00A3CCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4A48701BF2E5FD00A3CCD5 /* Project object */;
+}
